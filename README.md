@@ -15,7 +15,7 @@ The execution status of steps can also be categorized as: continuing execution(*
 Based on the complexity of steps, various smaller independent steps can be further subdivided. These smaller, independent steps collectively form a *StepList*. The execution of steps follows a linear order, with jumps occurring only when encountering conditional selections. The sequential list and conditional jumps provide flexibility to the framework.  
   
 For example, StepHandle2 needs to be executed three times on a timed schedule. To simplify, its content can be further subdivided into three individual steps.  
-![image](https://github.com/kachuu/StepFramework/blob/main/stepFramework.png)  
+![image](https://github.com/kachuu/StepByStep-Framework/blob/main/stepByStep.png)  
   
 ## Example  
 ### Create a simple step object  
